@@ -1,0 +1,25 @@
+{
+	"public": true,
+	"name": "cra-template-mv3-chrome-extension",
+	"author": {
+		"name": "J. Lewis",
+		"email": "inquiries.lewis+dev@gmail.com",
+		"url": "https://github.com/lewxdev"
+	},
+	"license": "MIT",
+	"version": "1.0.0",
+	"description": "A CRA project template for rapid development of Chrome extensions",
+	"repository": "github:lewxdev/cra-template-mv3-chrome-extension",
+	"homepage": "https://github.com/lewxdev/cra-template-mv3-chrome-extension",
+	"bugs": "https://github.com/lewxdev/cra-template-mv3-chrome-extension/issues",
+	"keywords": [
+		"react",
+		"create-react-app",
+		"template",
+		"cra",
+		"cra-template",
+		"chrome-extension",
+		"mv3",
+		"mui"
+	]
+}
