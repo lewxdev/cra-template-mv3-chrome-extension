@@ -7,7 +7,7 @@
 		"url": "https://github.com/lewxdev"
 	},
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "A CRA project template for rapid development of Chrome extensions",
 	"repository": "github:lewxdev/cra-template-mv3-chrome-extension",
 	"homepage": "https://github.com/lewxdev/cra-template-mv3-chrome-extension",

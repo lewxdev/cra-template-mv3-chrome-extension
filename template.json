@@ -3,16 +3,18 @@
 		"dependencies": {
 			"@emotion/react": "^11.7.1",
 			"@emotion/styled": "^11.6.0",
-			"@mui/material": "^5.2.6"
+			"@mui/material": "^5.2.6",
+			"react-scripts": "^4.0.3"
 		},
 		"devDependencies": {
+			"@craco/craco": "^6.4.3",
 			"@types/chrome": "^0.0.174",
-			"concurrently": "^6.5.1",
 			"nodemon": "^2.0.15"
 		},
 		"scripts": {
-			"update": "find ./public/* ! -name index.html -maxdepth 0 -print0 | xargs -0 -I file cp -vr file ./extension",
-			"dev": "concurrently --raw \"npm:start\" \"nodemon\""
+			"start": "craco start",
+			"build": "craco build",
+			"test": "echo \"Error: no test specified\" && exit 1"
 		},
 		"browserslist": {
 			"production": [
@@ -23,11 +25,12 @@
 			]
 		},
 		"nodemonConfig": {
-			"exec": "npm run update",
+			"delay": 10000,
+			"exec": "npm run build",
+			"ext": "js,jsx,json,css",
 			"watch": [
-				"public"
-			],
-			"delay": 10000
+				"src"
+			]
 		}
 	}
 }

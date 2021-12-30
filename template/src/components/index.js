@@ -1,3 +1,4 @@
 import App from "./App"
+import Popup from "./Popup"
 
-export { App }
+export { App, Popup }
